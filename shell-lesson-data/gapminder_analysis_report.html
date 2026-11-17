@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gapminder Data Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1, h2 { color: #2c3e50; }
+        .stats { background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .highlight { background-color: #e8f4f8; padding: 10px; border-left: 4px solid #3498db; }
+    </style>
+</head>
+<body>
+    <h1>Gapminder Data Analysis Report</h1>
+    <p><em>Generated on 2026-11-17 15:55:10</em></p>
+    
+    <div class='highlight'>
+        <h2>Dataset Overview</h2>
+        <p><strong>Total Records:</strong> 1704</p>
+        <p><strong>Year Range:</strong> 1952 - 2007</p>
+        <p><strong>Continents:</strong> Africa, Americas, Asia, Europe, Oceania</p>
+    </div>
+    
+    <div class='stats'>
+        <h2>Life Expectancy Statistics</h2>
+        <p><strong>Average:</strong> 52.91 years</p>
+        <p><strong>Minimum:</strong> 23.599 years</p>
+        <p><strong>Maximum:</strong> 82.603 years</p>
+        <p><strong>Total Sum:</strong> 90157.04 years</p>
+    </div>
+    
+    <div class='stats'>
+        <h2>GDP per Capita Statistics</h2>
+        <p><strong>Average:</strong> $7215.33</p>
+        <p><strong>Minimum:</strong> $241.17</p>
+        <p><strong>Maximum:</strong> $49357.19</p>
+        <p><strong>Total Sum:</strong> $12294920.26</p>
+    </div>
+    
+    <div class='stats'>
+        <h2>Population Statistics</h2>
+        <p><strong>Average:</strong> 29601212 people</p>
+        <p><strong>Minimum:</strong> 60011 people</p>
+        <p><strong>Maximum:</strong> 1318683096 people</p>
+        <p><strong>Total Sum:</strong> 50440465728 people</p>
+    </div>
+    
+    <div class='stats'>
+        <h2>Records by Continent</h2>
+        <table>
+            <tr><th>Continent</th><th>Record Count</th><th>Percentage</th></tr>
+            <tr><td>Asia</td><td>396</td><td>23.2%</td></tr>
+            <tr><td>Europe</td><td>360</td><td>21.1%</td></tr>
+            <tr><td>Africa</td><td>624</td><td>36.6%</td></tr>
+            <tr><td>Americas</td><td>300</td><td>17.6%</td></tr>
+            <tr><td>Oceania</td><td>24</td><td>1.4%</td></tr>
+        </table>
+    </div>
+    
+    <div class='stats'>
+        <h2>Top 10 Countries by GDP per Capita (2007)</h2>
+        <table>
+            <tr><th>Country</th><th>Continent</th><th>GDP per Capita</th><th>Life Expectancy</th><th>Population</th></tr>
+            <tr><td>Norway</td><td>Europe</td><td>$49357.19</td><td>80.2</td><td>4627926</td></tr>
+            <tr><td>Kuwait</td><td>Asia</td><td>$47306.99</td><td>77.6</td><td>2505559</td></tr>
+            <tr><td>Singapore</td><td>Asia</td><td>$47143.18</td><td>80.0</td><td>4553009</td></tr>
+            <tr><td>United States</td><td>Americas</td><td>$42951.65</td<|tool_call_begin|>td>78.2</td><td>301139947</td></tr>
+            <tr><td>Ireland</td><td>Europe</td><td>$40676.00</td><td>78.9</td><td>4109086</td></tr>
+            <tr><td>Hong Kong China</td><td>Asia</td><td>$39724.98</td><td>82.2</td><td>6980412</td></tr>
+            <tr><td>Switzerland</td><td>Europe</td><td>$37506.42</td><td>81.7</td><td>7554661</td></tr>
+            <tr><td>Netherlands</td><td>Europe</td><td>$36797.93</td><td>79.8</td><td>16570613</td></tr>
+            <tr><td>Canada</td><td>Americas</td><td>$36319.24</td><td>80.7</td><td>33390141</td></tr>
+            <tr><td>Iceland</td><td>Europe</td><td>$36180.79</td><td>81.8</td><td>301931</td></tr>
+        </table>
+    </div>
+    
+    <div class='stats'>
+        <h2>Top 10 Countries by Life Expectancy (2007)</h2>
+        <table>
+            <tr><th>Country</th><th>Continent</th><th>Life Expectancy</th><th>GDP per Capita</th><th>Population</th></tr>
+            <tr><td>Japan</td><td>Asia</td><td>82.6</td><td>$31656.07</td><td>127467972</td></tr>
+            <tr><td>Hong Kong China</td><td>Asia</td><td>82.2</td><td>$39724.98</td><td>6980412</td></tr>
+            <tr><td>Iceland</td><td>Europe</td><td>81.8</td><td>$36180.79</td><td>301931</td></tr>
+            <tr><td>Switzerland</td><td>Europe</td><td>81.7</td><td>$37506.42</td><td>7554661</td></tr>
+            <tr><td>Australia</td><td>Oceania</td><td>81.2</td><td>$34435.37</td><td>20434176</td></tr>
+            <tr><td>Spain</td><td>Europe</td><td>80.9</td><td>$28821.06</td><td>40448191</td></tr>
+            <tr><td>Sweden</td><td>Europe</td><td>80.9</td><td>$33859.75</td><td>9031088</td></tr>
+            <tr><td>Israel</td><td>Asia</td><td>80.7</td><td>$25523.28</td><td>6426679</td></tr>
+            <tr><td>France</td><td>Europe</td><td>80.7</td><td>$30470.02</td><td>61083916</td></tr>
+            <tr><td>Canada</td><td>Americas</td><td>80.7</td><td>$36319.24</td><td>33390141</td></tr>
+        </table>
+    </div>
+    
+    <hr>
+    <p><em>Report generated from gapminder_data.csv containing 1704 records</em></p>
+</body>
+</html>
