@@ -81,4 +81,22 @@ To view the Gapminder analysis report, simply open `gapminder_analysis_report.ht
 
 ## Notes
 
-The `notes.text` file in the north-pacific-gyre directory is available for any additional documentation or observations related to the data.
+The `notes.text` file in the north-pacific-gyre directory is available for any additional documentation or observations related to the data.## Recent Updates  
+- Added comprehensive Gapminder data analysis (November 2026)  
+- Generated interactive HTML report with statistical insights  
+- Created documentation and changelog for tracking changes  
+-  
+## Files Modified/Added:  
+- gapminder_data.csv: Global development statistics dataset  
+- gapminder_analysis_report.html: Interactive HTML analysis report  
+- README.md: Updated documentation (this file)  
+- CHANGELOG.md: Tracking of recent changes  
+-  
+### Analysis Highlights:  
+- Life expectancy trends across continents and time  
+- GDP per capita analysis and correlations  
+- Population growth patterns  
+- Regional breakdowns and comparisons  
+- Top performing countries in various metrics  
+-  
+---  
